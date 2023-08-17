@@ -11,9 +11,9 @@ from PyQt5.QtGui import QIcon
 class PDFComparisonApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("PDF Comparison App")
+        self.setWindowTitle("No CHEAT")
         self.setGeometry(100, 100, 400, 300)
-        self.setWindowIcon(QIcon("icon.png"))
+        self.setWindowIcon(QIcon("icon.ico"))
 
         self.central_widget = QWidget(self)
         self.setCentralWidget(self.central_widget)
